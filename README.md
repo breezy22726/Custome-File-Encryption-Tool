@@ -147,10 +147,12 @@ Each encrypted file (`name.ext.enc`) has this layout:
 - [ ] Option to keep original files instead of replacing them
 
 ## Team
-| Name | Role |
-|---|---|
-| [Member 1] | [e.g. FileProcessor, FolderScanner] |
-| [Member 2] | [e.g. KeyManager, login] |
-| [Member 3] | [e.g. Logger, documentation] |
+| Names | 
+| Abraham Moteane | 
+| Isaac Khwesa |
+| Victoria Mangira |
+| Zachuma Nculana|
+| Uwase Opportunee|
+| Zachuma Ngculana|
 
-*Course: [course name and code] - Milestone 1 (console prototype)*
+
