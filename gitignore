@@ -1,0 +1,15 @@
+# Compiled files
+*.class
+
+# Runtime data - never commit these
+auth.dat
+app.log
+demo_data/
+
+# IDE files
+nbproject/private/
+build/
+dist/
+.idea/
+*.iml
+.vscode/
