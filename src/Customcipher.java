@@ -9,7 +9,7 @@ public class Customcipher implements Encryptionalgorithm{   //Customcipher class
     
     @Override 
     public byte[] encrypt(byte[] data, byte[] key) {
-        return applyKeystream(data, key);
+        return applyKeystream(data, key);                   
     }
     
     @Override
