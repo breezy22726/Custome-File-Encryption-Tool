@@ -1,13 +1,13 @@
 
-import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
+import java.security.MessageDigest;                        //Imports class that provides applications with the functionality of cryptographically secure, one-way hash function.
+import java.security.NoSuchAlgorithmException;             //Imports exception that is thrown when a requested cryptographic algorithm is not available in the current environment.
 
 
-public class Customcipher implements Encryptionalgorithm{
+public class Customcipher implements Encryptionalgorithm{   //Customcipher class adopts the EncryptionAlgorithm interface.
     
     private static final int BLOCK_SIZE = 32;
     
-    @Override
+    @Override 
     public byte[] encrypt(byte[] data, byte[] key) {
         return applyKeystream(data, key);
     }
