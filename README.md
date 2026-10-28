@@ -153,6 +153,6 @@ Each encrypted file (`name.ext.enc`) has this layout:
 | Victoria Mangira |
 | Zachuma Nculana|
 | Uwase Opportunee|
-| Zachuma Ngculana|
+| Asithandile|
 
 
