@@ -46,7 +46,6 @@ ENCRYPTYIT is a Java application for password-based encryption and decryption of
 | Individual-file selection in the GUI | Not implemented |
 | AES implementation (optional benchmarking) | Not started |
 | Automated unit tests | Not present in the supplied project |
-| Documentation | README updated; Javadoc coverage not independently verified |
 
 ## Architecture
 
