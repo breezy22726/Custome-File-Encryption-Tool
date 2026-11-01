@@ -2,10 +2,7 @@ import java.awt.FlowLayout;
 import java.awt.event.*;
 import java.io.File;
 import javax.swing.*;
-/**
- *
- * @author ngculz20
- */
+
 public class FileChooser extends JFrame implements ActionListener{
     
     FileChooser(){
