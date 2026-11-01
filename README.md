@@ -154,8 +154,8 @@ Each encrypted file (`name.ext.enc`) has this layout:
 | Abraham Moteane | 
 | Isaac Khwesa |
 | Victoria Mangira |
-| Zachuma Nculana|
+| Zachuma Ngculana|
 | Uwase Opportunee|
-| Asithandile|
+| Asithandile Magqabi|
 
 
