@@ -157,5 +157,6 @@ Each encrypted file (`name.ext.enc`) has this layout:
 | Zachuma Ngculana|
 | Uwase Opportunee|
 | Asithandile Magqabi|
+| Libhongo Msolo |
 
 
