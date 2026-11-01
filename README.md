@@ -67,6 +67,8 @@ Main ──► GUI (placeholder) ──► FileProcessor ──► FolderScanner
 | `EncryptionAlgorithm` | Interface: `encrypt(data, key)` and `decrypt(data, key)` |
 | `CustomCipher` | Our implementation of `EncryptionAlgorithm` |
 | `FileChooser` | Used to select and display files that will be encrypted or decrypted. |
+| `LogIn` | Functionality of the login button |
+| `SignUp` | Functionality of the signup button |
 
 ## Project structure
 
