@@ -66,6 +66,7 @@ Main ──► GUI (placeholder) ──► FileProcessor ──► FolderScanner
 | `Logger` | Writes timestamped events and errors to `app.log` |
 | `EncryptionAlgorithm` | Interface: `encrypt(data, key)` and `decrypt(data, key)` |
 | `CustomCipher` | Our implementation of `EncryptionAlgorithm` |
+| `FileChooser` | Used to select and display files that will be encrypted or decrypted. |
 
 ## Project structure
 
