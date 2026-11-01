@@ -28,7 +28,7 @@ public class Main {
         Folderscanner scanner = new Folderscanner();
         Fileprocessor processor = new Fileprocessor(algorithm, scanner, keyManager, logger);
         
-        if (args.length > 0 && args[0].equalsIgnoreCase("--gui")){
+        if (args.length == 0 || args[0].equalsIgnoreCase("--gui")){
             new GUI(processor).buildWindow();
             return;
         }
