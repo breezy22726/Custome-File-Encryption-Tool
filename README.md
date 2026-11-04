@@ -40,7 +40,7 @@ A Java tool that encrypts and decrypts whole folders of files using a password. 
 | Console interface | Done |
 | Code documentation (Javadoc on classes and methods) | Done |
 | GUI | Placeholder only (`GUI.java`) |
-| AES implementation (optional, for benchmarking) | Not started |
+| AES implementation (optional, for benchmarking) | Done |
 | Unit tests | Not started |
 
 ## Architecture
