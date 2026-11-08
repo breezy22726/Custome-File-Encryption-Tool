@@ -80,6 +80,30 @@ public class Fileprocessor {
     
     
     
+    //encrypts a file (used by the "Encrypt file" button)
+    public void encryptSingleFile(Path file, char[] pwd) throws IOException {
+        requireFile(file);
+        if (file.getFileName().toString().endsWith(ENC_EXT)) {
+            throw new IOException("File is already encrypted: " + file);
+        }
+        encryptFile(file, pwd);
+    }
+
+    //decrypts a .enc file (used by the "Decrypt file" button)
+    public void decryptSingleFile(Path file, char[] pwd) throws IOException {
+        requireFile(file);
+        if (!file.getFileName().toString().endsWith(ENC_EXT)) {
+            throw new IOException("Not an encrypted (.enc) file: " + file);
+        }
+        decryptFile(file, pwd);
+    }
+
+    private void requireFile(Path file) throws IOException {
+        if (!Files.isRegularFile(file)) {
+            throw new IOException("File not found: " + file);
+        }
+    }
+
     private void encryptFile(Path path, char[] pwd) throws IOException {
         
          byte[] plain = Files.readAllBytes(path);

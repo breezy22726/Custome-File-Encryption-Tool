@@ -29,7 +29,23 @@ public class Main {
         Fileprocessor processor = new Fileprocessor(algorithm, scanner, keyManager, logger);
         
         if (args.length == 0 || args[0].equalsIgnoreCase("--gui")){
-            new GUI(processor).buildWindow();
+            //Set look and feel to Nimbus for a modern Swing interface
+            
+            try{
+                for (javax.swing.UIManager.LookAndFeelInfo info: javax.swing.UIManager.getInstalledLookAndFeels()){
+                    if("Nimbus".equals(info.getName())){
+                        javax.swing.UIManager.setLookAndFeel(info.getClassName());
+                        break;
+                    }
+                }
+            } catch (Exception ex){
+                
+            }
+            
+            //launch the login form
+            java.awt.EventQueue.invokeLater(() -> {
+                new LogIn(processor, keyManager, logger).setVisible(true);
+            });
             return;
         }
         
